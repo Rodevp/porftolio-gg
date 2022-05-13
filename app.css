@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'karla-medium';
+    src: url('./fonts/Karla-MediumItalic.ttf')
+}
+
+@font-face {
+    font-family: 'karla-regular';
+    src: url('./fonts/Karla-Regular.ttf')
+}
+
+@font-face {
+    font-family: 'karla-bold';
+    src: url('./fonts/Karla-SemiBold.ttf')
+}
+
+:root {
+    --primary: #0e0c0b;
+    --violet-color-primary: #20115b;
+    --violet-color-secondary: #7232f2;
+    --violet-light: #c876ff;
+    --font-title: 'karla-medium';
+    --font-paragraph: 'karla-regular';
+    --font-bold: 'karla-bold';
+}
+
+
+
+/*main*/
+.main {
+    width: 100%;
+    padding-top: 8rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    position: relative;
+    z-index: 8;
+    background-color: var(--primary);
+}
+
