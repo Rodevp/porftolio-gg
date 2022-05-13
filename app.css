@@ -21,6 +21,8 @@
     --font-title: 'karla-medium';
     --font-paragraph: 'karla-regular';
     --font-bold: 'karla-bold';
+    --font-color-primary: rgb(255,241,242,.8);
+    --font-color-secondary: rgb(255,228,230,.6);
 }
 
 
@@ -34,5 +36,65 @@
     position: relative;
     z-index: 8;
     background-color: var(--primary);
+}
+
+/*general*/
+.wrapper, footer {
+    width: 100%;
+}
+
+/*presentation*/
+.me {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.wrapper__image {
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.image__perfil_content {
+    width: 70px;
+    height: 70px;
+    border-radius: 9999px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(32,17,91);
+    background: linear-gradient(90deg, rgba(32,17,91,1) 32%, rgba(114,50,242,1) 100%);
+}
+
+.image__perfil_content > img {
+    border-radius: 9999px;
+    margin: 2px 2px;
+    width: 90%;
+    height: 90%;
+}
+
+.name_and_profession {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.name_and_profession > h1 {
+    width: 100%;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 500;
+    font-family: var(--font-title);
+    color: var(--font-color-primary);
+}
+
+.name_and_profession > h2 {
+    width: 100%;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-family: var(--font-paragraph);
+    color: rgb(255,228,230,.6);
 }
 
