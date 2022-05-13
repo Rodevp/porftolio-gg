@@ -48,6 +48,7 @@
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 2rem;
 }
 
 .wrapper__image {
@@ -98,3 +99,33 @@
     color: rgb(255,228,230,.6);
 }
 
+.description {
+    width: 100%;
+    margin-bottom: 2rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-family: var(--font-paragraph);
+    color: var(--font-color-primary);
+}
+
+.social_network {
+    width: 100%;
+    padding: 1em 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.social_github, .social_linkedin {
+    width: 30%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-paragraph);
+    color: var(--font-color-primary);
+    background-color: green;
+}
+
+.social_github {
+    margin-left: 0.5rem;
+}
