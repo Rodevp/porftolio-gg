@@ -52,7 +52,6 @@
 .me {
     width: 100%;
     margin-bottom: 1.5rem;
-    padding-bottom: 1.2rem;
     display: flex;
     flex-direction: column;
 }
@@ -144,3 +143,34 @@
     height: 22px;
 }
 
+/*networks*/
+.networks {
+    width: 100%;
+    padding: 1rem 0;   
+}
+
+.network_title {
+    font-size: 1.2rem;
+    padding: 1rem 0;
+    font-weight: 600;
+    font-family: var(--font);
+}
+
+.content_networks {
+    width: 100%;
+    display: flex;
+}
+
+.network_item {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.network_item > a {
+    width: 30px;
+    height: 30px;
+}
