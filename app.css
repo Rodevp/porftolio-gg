@@ -182,6 +182,8 @@
 .about_me {
     width: 100%;
     padding: 1rem 0;
+    margin-bottom: 1.4rem;
+    border-bottom: 1px solid black;
 }
 
 .about_me_title {
@@ -196,3 +198,55 @@
     padding: 1rem 0;
     font-family: var(--font);
 }
+
+/*available*/
+.available {
+    width: 100%;
+    padding: 1rem 0;
+    margin-bottom: 1.4rem;
+}
+
+.available_title {
+    font-size: 1.4rem;
+    padding: 1rem 0;
+    font-weight: 600;
+    font-family: var(--font);
+}
+
+.content_available {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.item_available {
+    flex-basis: 100px;
+    height: 50px;
+    font-size: 1rem;
+    margin: 0.5rem 0;
+    font-weight: 600;
+    font-family: var(--font);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background 200ms linear;
+    border: 1px solid #e4e8f1;
+}
+
+.item_available--one:hover {
+    background-color: #3178c6;
+    color: #ffffff;
+}
+
+.item_available--two:hover {
+    background-color: #582be8;
+    color: #ffffff;
+}
+
+.item_available--three:hover {
+    background-color: #13aa52;
+    color: #ffffff;
+}
+
