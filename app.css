@@ -57,6 +57,12 @@
 }
 
 .me_image {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content_image {
     width: 128px;
     height: 128px;
     margin-bottom: 0.8rem;
@@ -65,8 +71,36 @@
     align-items: center;
 }
 
-.me_image, .me_image > img{
+.content_image > img {
     border-radius: 50%;
+}
+
+.menu_color {
+    width: 100px;
+    max-width: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.color_item {
+    width:  30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+    background-color: rebeccapurple;
+}
+
+.indigo_color {
+
+}
+
+.orange_color {
+
+}
+
+.blue_color {
+    
 }
 
 .me_name {
