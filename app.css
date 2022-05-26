@@ -104,15 +104,15 @@
 }
 
 .indigo_color {
-    animation: changeBackgroundHeroIndigo 500ms linear 1s forwards;
+    animation: changeBackgroundHeroIndigo 500ms linear forwards;
 }
 
 .orange_color {
-    animation: changeBackgroundHeroOrange 500ms linear 1s forwards;
+    animation: changeBackgroundHeroOrange 500ms linear forwards;
 }
 
 .blue_color {
-    animation: changeBackgroundHeroBlue 500ms linear 1s forwards;
+    animation: changeBackgroundHeroBlue 500ms linear forwards;
 }
 
 /*animation for hero*/

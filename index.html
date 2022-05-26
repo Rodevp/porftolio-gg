@@ -8,11 +8,12 @@
     <link rel="icon" type="image/svg+xml" href="./images/logo_rodevp.png">
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./app.css">
+    <script src="./app.js" defer></script>
     <title>Rodrigo Rodriguez</title>
 </head>
 
 <body>
-    <header class="hero">
+    <header class="hero" id="hero">
         <nav class="nav">
             <img src="./images/logo_rodevp.png" alt="logo rodevp" loading="lazy" />
         </nav>
@@ -24,9 +25,18 @@
                     <img src="./images/perfil.jpg" alt="photo of me">
                </figure>
                 <div class="menu_color">
-                    <div class="color_item color_item--blue"></div>
-                    <div class="color_item color_item--orange"></div>
-                    <div class="color_item color_item--indigo"></div>
+                    <div
+                      class="color_item color_item--blue"
+                      data-color="blue"  
+                    ></div>
+                    <div
+                        class="color_item color_item--orange"
+                        data-color="orange"
+                    ></div>
+                    <div
+                      class="color_item color_item--indigo"
+                      data-color="indigo"  
+                    ></div>
                 </div>
             </div>
             <h1 class="me_name">
