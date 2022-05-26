@@ -88,20 +88,53 @@
     height: 30px;
     border-radius: 50%;
     margin-bottom: 0.5rem;
-    background-color: rebeccapurple;
+    cursor: pointer;
+}
+
+.color_item--indigo {
+    background-color: #6610f2;
+}
+
+.color_item--orange {
+    background-color: #fd7e14;
+}
+
+.color_item--blue {
+    background-color: #007bff;
 }
 
 .indigo_color {
-
+    animation: changeBackgroundHeroIndigo 500ms linear 1s forwards;
 }
 
 .orange_color {
-
+    animation: changeBackgroundHeroOrange 500ms linear 1s forwards;
 }
 
 .blue_color {
-    
+    animation: changeBackgroundHeroBlue 500ms linear 1s forwards;
 }
+
+/*animation for hero*/
+@keyframes changeBackgroundHeroIndigo {
+    100% {
+        transition: background 500ms linear;
+        background-color: #6610f2;
+    }
+}
+@keyframes changeBackgroundHeroOrange {
+    100% {
+        transition: background 500ms linear;
+        background-color: #fd7e14;
+    }
+}
+@keyframes changeBackgroundHeroBlue {
+    100% {
+        transition: background 500ms linear;
+        background-color: #007bff;
+    }
+}
+
 
 .me_name {
     width: 100%;
