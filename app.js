@@ -4,6 +4,7 @@ const btns = Array.from(buttonsChangeColor)
 
 
 btns.forEach(element =>  {
+
     element.addEventListener( 'click', e => {
 
         if (e.target.dataset.color === 'blue') {
@@ -23,6 +24,7 @@ btns.forEach(element =>  {
             hero.classList.remove('orange_color')
             hero.classList.remove('blue_color')
         }
-        
+
     })
+
 })
