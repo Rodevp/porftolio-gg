@@ -204,6 +204,7 @@
     width: 100%;
     padding: 1rem 0;
     margin-bottom: 1.4rem;
+    border-bottom: 1px solid black;
 }
 
 .available_title {
@@ -248,5 +249,70 @@
 .item_available--three:hover {
     background-color: #13aa52;
     color: #ffffff;
+}
+
+/*projects*/
+.projects {
+    width: 100%;
+    padding: 1rem 0;
+}
+
+.title_projects {
+    width: 100%;
+    padding: 1rem 0;
+    font-size: 1.4rem;
+    font-weight: 600;
+    font-family: var(--font);
+}
+
+.content_projects {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.project {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0.8rem;
+    border: 1px solid #f1f4f9;
+    transition: border 100ms linear;
+}
+
+.project:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.project_title, .project_paragraph {
+    width: 100%;
+    padding: 1rem 0;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: var(--font);
+}
+
+.project_paragraph {
+    padding: 0;
+    font-weight: 500;
+}
+
+.content__btn_project {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content__btn_project > a {
+    height: 30px;
+    width: 40%;
+    font-size: 1.1rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #e4e8f1;
 }
 
