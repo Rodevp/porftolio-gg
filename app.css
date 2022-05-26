@@ -42,7 +42,7 @@
     flex-direction: column;
     justify-content: center;
     z-index: 3;
-    top: -220px;
+    top: -225px;
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem;
     background-color: var(--color-main);
@@ -234,6 +234,7 @@
     align-items: center;
     transition: background 200ms linear;
     border: 1px solid #e4e8f1;
+    border-radius: 0.2rem;
 }
 
 .item_available--one:hover {
@@ -268,14 +269,13 @@
 .content_projects {
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
 }
 
 .project {
-    flex-basis: 100%;
-    max-width: 45%;
+    width: 100%;
     padding: 0.8rem;
     margin-bottom: 1rem;
     border-radius: 0.8rem;
@@ -296,7 +296,6 @@
 }
 
 .project_paragraph {
-    padding: 0;
     font-weight: 500;
 }
 
@@ -317,3 +316,42 @@
     border: 1px solid #e4e8f1;
 }
 
+
+@media screen and (min-width: 520px) {
+    
+    .content_projects {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .project {
+        width: 70%;
+    }
+
+}
+
+@media screen and (min-width: 720px) {
+    
+    .main {
+        padding: 2.5rem 2.5rem 0 2.5rem;
+    }
+
+    .arrobas {
+        width: 80%;
+    }
+
+    .content_available {
+        justify-content: flex-start;
+    }
+
+    .item_available {
+        margin-right: 1rem;
+        flex-basis: 120px;
+        height: 40px;
+    }
+
+    .project {
+        width: 45%;
+    }
+    
+}
