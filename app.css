@@ -248,7 +248,7 @@
     width: 100%;
     margin-bottom: 1rem;
     padding-bottom: 1.6rem;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #dadada;
 }
 
 .network_title {
@@ -283,7 +283,7 @@
     width: 100%;
     padding: 1rem 0;
     margin-bottom: 1.4rem;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #dadada;
 }
 
 .about_me_title {
@@ -304,7 +304,7 @@
     width: 100%;
     padding: 1rem 0;
     margin-bottom: 1.4rem;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #dadada;
 }
 
 .available_title {
@@ -393,6 +393,10 @@
     padding: 0.5rem 0;
     font-size: 1rem;
     font-weight: 600;
+    font-family: var(--font);
+}
+
+.btn_project {
     font-family: var(--font);
 }
 
